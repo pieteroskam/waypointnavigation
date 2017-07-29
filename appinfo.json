@@ -1,7 +1,7 @@
 {
     "appKeys": {},
     "capabilities": [
-        ""
+        "configurable"
     ],
     "companyName": "pieteroskam@gmail.com",
     "longName": "Waypoint Navigation",
@@ -10,7 +10,6 @@
         "media": [
             {
                 "file": "images/menu_icon.png",
-                "menuIcon": true,
                 "name": "IMAGE_MENU_ICON",
                 "type": "bitmap"
             },
@@ -28,11 +27,32 @@
                 "file": "fonts/UbuntuMono-Regular.ttf",
                 "name": "MONO_FONT_14",
                 "type": "font"
+            },
+            {
+                "file": "images/down.png",
+                "name": "IMAGES_DOWN_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/remove.png",
+                "name": "IMAGES_REMOVE_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/plus.png",
+                "name": "IMAGES_PLUS_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/arrow",
+                "menuIcon": true,
+                "name": "IMAGES_ARROW",
+                "type": "png"
             }
         ]
     },
     "sdkVersion": "3",
-    "shortName": "Waypoint Navigation",
+    "shortName": "Archipelago 2017",
     "targetPlatforms": [
         "aplite"
     ],
